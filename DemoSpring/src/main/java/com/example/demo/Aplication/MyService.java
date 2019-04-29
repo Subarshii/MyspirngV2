@@ -11,7 +11,7 @@ public class MyService implements Interface1, Interface2 {
         System.out.println("Hello Method 1");
 
     }
-
+    @MytimeStart
     @Override
     public void hello2() {
         System.out.println("Hello Method 2");
